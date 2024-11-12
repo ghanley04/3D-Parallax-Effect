@@ -12,6 +12,10 @@ body {
     font-family: "Poppins", sans-serif;
 }
 
+::selection{
+    background-color: #0b372dbb;
+}
+
 .logo {
     width: 100px;
 }
@@ -110,7 +114,7 @@ main {
 
 .parallax{
     pointer-events: none;
-    transform: translate(-50%, -50%);
+    transition: 0.45s cubic-bezier(.2, .49, .32, .99);
 }
 
 .bg-img {
@@ -184,6 +188,7 @@ main {
     left: 50%;
     text-align: center;
     text-transform: uppercase;
+    pointer-events: auto;
     color: #fff;
     line-height: 0.88; /*tutorial put this under h2 and h1*/
 } 
@@ -230,13 +235,21 @@ main {
     left: calc(50% - 15px);
 }
 
-.mountain-4 {
+.mountain-4 { /*double check measurements???*/
     position: absolute;
     z-index: 14;
     top: calc(50% + 196px);
     left: calc(50% - 381.5px);
     width: 538px;
 } 
+
+/* .mountain-3 {
+    position: absolute;
+    z-index: 15;
+    top: calc(50% + 196px);
+    left: calc(50% - 381.5px);
+    width: 538px;
+}  */
 
 /*need other classes here? where is mountain 3?*/ 
 .fog-2 {
