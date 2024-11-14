@@ -119,16 +119,16 @@ main {
 
 .bg-img {
     position: absolute;
-    width: 2800px;
-    top: calc(50% - 390px);
-    left: calc(50% + 10px);
+    width: 194.44%;
+    top: 1.86%;
+    left: 50.69%;
     z-index: 1;
 }
 
 .fog-7 {
     position: absolute;
     z-index: 2;
-    width: 1900px;
+    width: 131.94%;
     top: calc(50% - 100px);
     left: calc(50% + 300px);
 }
@@ -136,7 +136,7 @@ main {
 .mountain-10 {
     position: absolute;
     z-index: 3;
-    width: 892px;
+    width: 61.9%;
     top: calc(50% + 69px);
     left: calc(50% + 230px);
 }
@@ -144,7 +144,7 @@ main {
 .fog-6 {
     position: absolute;
     z-index: 4;
-    width: 1610px;
+    width: 111.8%;
     top: calc(50% + 85px);
     left: calc(50% + 10px);
 }
@@ -152,7 +152,7 @@ main {
 .mountain-9 {
     position: absolute;
     z-index: 5;
-    width: 470px;
+    width: 32.64%;
     top: calc(50% + 113px);
     left: calc(50% - 457px);
 }
@@ -160,7 +160,7 @@ main {
 .mountain-8 {
     position: absolute;
     z-index: 6;
-    width: 810px;
+    width: 56.25%;
     top: calc(50% + 86px);
     left: calc(50% - 202px);
 }
@@ -168,7 +168,7 @@ main {
 .fog-5 {
     position: absolute;
     z-index: 7;
-    width: 450px;
+    width: 31.25%;
     top: calc(50% + 160px);
     left: calc(50% + 20px);
 }
@@ -176,7 +176,7 @@ main {
 .mountain-7 {
     position: absolute;
     z-index: 8;
-    width: 538px;
+    width: 37.36%;
     top: calc(50% + 123px);
     left: calc(50% + 305px);
 }
@@ -206,31 +206,31 @@ main {
 .mountain-6 {
     position: absolute;
     z-index: 10;
+    width: 28.33%;
     top: calc(50% + 60px);
     left: calc(50% + 590px);
-    width: 408px;
 }
 
 .fog-4 {
     position: absolute;
     z-index: 11;
+    width: 40.97%;
     top: calc(50% + 223px);
     left: calc(50% - 60px);
-    width: 590px;
 }
 
 .mountain-5 {
     position: absolute;
     z-index: 12;
+    width: 43.4%;
     top: calc(50% + 250px);
     left: calc(50% + 130px);
-    width: 625px;
 }
 
 .fog-3 {
     position: absolute;
     z-index: 13;
-    width: 1600px;
+    width: 111.11%;
     top: calc(50% + 110px);
     left: calc(50% - 15px);
 }
@@ -238,9 +238,9 @@ main {
 .mountain-4 { /*double check measurements???*/
     position: absolute;
     z-index: 14;
+    width: 37.36%;
     top: calc(50% + 196px);
     left: calc(50% - 381.5px);
-    width: 538px;
 } 
 
 /* .mountain-3 {
@@ -255,7 +255,7 @@ main {
 .fog-2 {
     position: absolute;
     z-index: 16;
-    width: 1560px;
+    width: 108.33%;
     top: calc(50% + 147px);
     left: calc(50% - 30px);
 }
@@ -263,18 +263,18 @@ main {
 .mountain-2 {
     position: absolute;
     z-index: 17;
+    width: 47.92%;
     top: calc(50% + 154px);
     left: calc(50% + 412px);
-    width: 690px;
 } 
 
 
 .mountain-1 {
     position: absolute;
     z-index: 18;
+    width: 36.81%;
     top: calc(50% + 17px);
     left: calc(50% - 601px);
-    width: 530px;
 } 
 
 
@@ -283,7 +283,7 @@ main {
     z-index: 19; 
     top: 0; 
     right: 0; 
-    width: 595px; 
+    width: 41.32%; 
     pointer-events: none;
     
 } 
@@ -300,7 +300,7 @@ main {
 .fog-1 {
     position: absolute;
     z-index: 21;
-    width: 1600px;
+    width: 111.11%;
     top: calc(100% - 355px);
     left: 50%;
 }
@@ -318,4 +318,62 @@ main {
         rgba(0,0,0,0.7)
     );
     pointer-events: none;
+}
+
+@media (max-width: 1100px){
+    .text h1{
+        font-size:5.8rem; 
+    }
+    .text h2{
+        font-size:4.7rem; 
+    }
+}
+
+@media (max-width: 725px){
+    .text h1{
+        font-size:5rem; 
+        line-height: 1.1;
+    }
+    
+    .text h2{
+        font-size:4.1rem; 
+        line-height: 1.1;
+    }
+    
+    header nav{
+        padding: 0 1rem;
+    }
+    
+    .logo{
+        width: 75px;
+    }
+
+    header ul a{
+        font-size: 0.73rem;
+        padding: 0 0.9rem;
+    }
+
+    .search a{
+        font-size: 0.85rem;
+        padding: 0 1.8rem;
+    }
+     
+    .hamburger{
+        padding-left: 0.9rem;
+    } 
+
+    .hamburger a{
+        height: 30px; 
+        width: 30px;
+    }
+}
+
+@media (max-width: 520px){
+    .text h1{
+        font-size: 3.3rem; 
+    }
+    
+    .text h2{
+        font-size: 2.6rem; 
+    }
 }
