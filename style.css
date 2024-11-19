@@ -28,6 +28,10 @@ body {
     width: 100px;
 }
 
+.main{
+    max-height: calc(100vh * 1.6);
+}
+
 header {
     position: absolute;
     z-index: 9999;
@@ -328,6 +332,9 @@ main {
 }
 
 @media (max-width: 1100px) {
+    .main{
+        max-height: calc(100vh * 1.1);
+    }
     .text h1 {
         font-size: 5.8rem;
     }
@@ -335,9 +342,103 @@ main {
     .text h2 {
         font-size: 4.7rem;
     }
+
+    .bg-img {
+        width: initial;
+        height: 214.432%;
+    }
+
+    .fog-7 {
+        width: initial;
+        height: 145.8%;
+    }
+
+    .mountain-10 {
+        width: initial;
+        height: 68.84%;
+    }
+
+    .fog-6 {
+        width: initial;
+        height: 123.92%;
+    }
+
+    .mountain-9 {
+        width: initial;
+        height: 35.91%;
+    }
+
+    .mountain-8 {
+        width: initial;
+        height: 61.875%;
+    }
+
+    .fog-5 {
+        width: initial;
+        height: 34.375%;
+    }
+
+    .mountain-7 {
+        width: initial;
+        height: 41.11%;
+    }
+
+    .mountain-6 {
+        width: initial;
+        height: 31.36%;
+    }
+
+    .fog-4 {
+        width: initial;
+        height: 45.33%;
+    }
+
+    .mountain-5 {
+        width: initial;
+        height: 53.76%;
+    }
+
+    .fog-3 {
+        width: initial;
+        height: 122.66%;
+    }
+
+    .mountain-4 {
+        /*double check measurements???*/
+        width: initial;
+        height: 57.2%;
+    }
+
+    .mountain-3 {
+        width: initial;
+        height: 41.11%;
+    }
+
+    .fog-2 {
+        width: initial;
+        height: 119.66%;
+    }
+
+    .mountain-2 {
+        width: initial;
+        height: 52.92%;
+    }
+
+    .mountain-1 {
+        width: initial;
+        height: 100%;
+    }
+
+    .fog-1 {
+        width: initial;
+        height: 123.92%;
+    }
 }
 
 @media (max-width: 725px) {
+    .main{
+        max-height: calc(100vh * 0.6);
+    }
     .text h1 {
         font-size: 5rem;
         line-height: 1.1;
@@ -460,9 +561,9 @@ main {
     }
 
     .mountain-1 {
-        display: none; 
+        display: none;
         width: initial;
-        height: 59.44%; 
+        height: 59.44%;
     }
 
     .fog-1 {
