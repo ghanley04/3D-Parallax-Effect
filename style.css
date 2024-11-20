@@ -355,7 +355,7 @@ main {
 
     .mountain-10 {
         width: initial;
-        height: 68.84%;
+        height: 98.84%;
     }
 
     .fog-6 {
@@ -365,12 +365,12 @@ main {
 
     .mountain-9 {
         width: initial;
-        height: 35.91%;
+        height: 85.91%;
     }
 
     .mountain-8 {
         width: initial;
-        height: 61.875%;
+        height: 81.875%;
     }
 
     .fog-5 {
@@ -380,12 +380,12 @@ main {
 
     .mountain-7 {
         width: initial;
-        height: 41.11%;
+        height: 81.11%;
     }
 
     .mountain-6 {
         width: initial;
-        height: 31.36%;
+        height: 81.36%;
     }
 
     .fog-4 {
@@ -395,7 +395,7 @@ main {
 
     .mountain-5 {
         width: initial;
-        height: 53.76%;
+        height: 79.76%;
     }
 
     .fog-3 {
@@ -406,12 +406,12 @@ main {
     .mountain-4 {
         /*double check measurements???*/
         width: initial;
-        height: 57.2%;
+        height: 68.2%;
     }
 
     .mountain-3 {
         width: initial;
-        height: 41.11%;
+        height: 76.11%;
     }
 
     .fog-2 {
@@ -421,12 +421,13 @@ main {
 
     .mountain-2 {
         width: initial;
-        height: 52.92%;
+        height: 79.92%;
     }
 
     .mountain-1 {
         width: initial;
         height: 100%;
+        top: 65%;
     }
 
     .fog-1 {
